@@ -1,0 +1,321 @@
+
+.navbar{
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    
+}
+.logo{
+    width: 120px;
+    height: 70%;
+    padding: 20px;
+}
+.plan{
+    display: flex;
+    margin-left: 350px;
+    margin-top: 10px;
+}
+.plan>h3{
+    margin: 10px;
+    text-decoration: underline;
+    margin-left: 20px;
+    color: #3182ff;
+   font-size: 15px;
+   font-family: FavoritFreshly, "Helvetica Neue", Helvetica, Arial, sans-serif;;
+    
+   
+}
+.plan>h3:hover{
+    cursor: pointer;
+    color: navy;
+}
+
+.ch{
+  margin-left: 10px;
+  margin-top: 12px;
+  font-family: FavoritFreshly, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #303030;
+}
+
+.last{
+    width: 200px;
+    height: 100%;
+    margin-left: 23%;
+    font-family: FavoritFreshly, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+i{
+    margin-top: 12px;
+    
+}
+a{
+    color:  #2a6dff;
+}
+
+
+
+.main{
+    display: grid;
+    grid-template-rows: repeat(2, 80px 1200px);
+    grid-template-columns: repeat(12, 100px);
+    grid-gap: 10px;
+    padding: 10px;
+    justify-content: center;
+    margin-left: 90px;
+    color: #303030;
+    grid-template-areas: 
+    "a a a a a a b b b b b b "
+    "c c c c c c d d d d d d"
+    ;
+}
+.main>div{
+   
+}
+.main>div:nth-child(3){
+    margin-left: 50px;
+}
+.main>div:nth-child(4){
+    width: 520px;
+    margin-left: 20px;
+}
+.a{
+    grid-area: a;
+}
+.b{
+    grid-area: b;
+}
+.c{
+    grid-area: c;
+}
+.d{
+    grid-area: d;
+}
+.hed{
+   padding: 10px;
+   margin-left: 20px;
+   font-family: FavoritFreshly, "Helvetica Neue", Helvetica, Arial, sans-serif;
+   color: #303030;
+}
+.main>div:nth-child(1){
+    width: 250px;
+    margin-left: 10px;
+}
+.main>div:nth-child(2){
+   width: 200px;
+}
+.inpbox{
+    width: 98%;
+    height: 98%;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    margin: auto;
+    padding: 5px;
+    font-family: FavoritFreshly, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #303030;
+}
+.nam{
+    display: flex;
+}
+.nam>div{
+   font-size: 20px;
+   height: 35px;
+   margin: 28px;
+    
+}
+
+.nam>div>label>p{
+    margin-left: 12px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.nam1{
+  margin-top: 25px;
+  margin-left: 35px;
+}
+.nam1>input{
+    font-size: 20px;
+    width: 95%;
+    height: 35px;
+    margin: 10px;
+ }
+ .nam1>label{
+    margin-left: 12px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.cit{
+    width: 210px;
+    
+}
+.sta{
+    width: 170px;
+}
+.zip{
+    width: 120px;
+}
+.clink{
+    display: flex;
+    justify-content: space-between;
+}
+.clink>p:nth-child(2){
+    font-weight: lighter;
+}
+.b1{
+     padding: 12px 265px;
+     margin-left: 10px;
+     margin-top: 30px;
+     background-color: #2a6dff;
+     color: white;
+     font-size: 18px;
+     font-family: FavoritFreshly, "Helvetica Neue", Helvetica, Arial, sans-serif;
+     font-weight: bold;
+     
+}
+.b1:hover{
+    cursor: pointer;
+    background-color: rgb(57, 57, 235);
+
+}
+.osbox1{
+    width: 100%;
+    height: 350px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+
+    font-family: FavoritFreshly, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #303030;
+    
+}
+.b1{
+    padding: 10px 225px;
+    margin-left: 10px;
+    margin-top: 30px;
+    background-color: #1745aa;
+    color: white;
+    font-size: 18px;
+    font-family: FavoritFreshly, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    border-radius: 8px;
+    
+}
+.b1:hover{
+   cursor: pointer;
+   background-color: rgb(57, 57, 235);
+   
+
+}
+.DD{
+    font-size: 18px;
+    width: 95%;
+    margin: 10px;
+
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: lighter;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+hr{
+    width: 95%;
+    margin-top: 1px;
+}
+
+.meal{
+    display: grid;
+    grid-template-columns: repeat(1 , 500px);
+    grid-template-rows: repeat(4 , 110px);
+    font-family: FavoritFreshly, "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+.meal>div{
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    display: flex;
+}
+
+.img{
+    height: 70%;
+    margin-top: 20px;
+    padding-right: 2%;
+    padding-left: 5%;
+    
+}
+.No{
+    margin-top: 40px;
+}
+.cont{
+    margin-top: 20px;
+}
+.container{
+    width: 90%;
+    height: 900px;
+    margin: auto;
+    margin-top: -1000px;
+    font-family: FavoritFreshly, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.hedd{
+    text-align: center;
+    font-size: 50px;
+    color: #303030;
+}
+.faq {
+
+    border: 1px solid transparent;
+    padding: 30px;
+    position: relative;
+  
+  }
+  .faq-title {
+    line-height: 0%;
+    padding-top:-30px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .faq-title:hover{
+  color: rgb(9, 180, 248);
+  }
+  .faq-text {
+    display: none;
+    font-size: 16px;
+    line-height:25px;
+    cursor: pointer;
+    font-family: FavoritFreshly, "Helvetica Neue", Helvetica, Arial, sans-serif;;
+  }
+  
+  .faq.active .faq-text {
+    display: block;
+  }
+  
+  .toggle {
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    position: absolute;
+    margin-left: 20px;
+    top: 30px;
+    right: 30px;
+    height: 30px;
+    width: 30px;
+    color: rgb(0, 183, 255);
+    background-color: transparent;
+  }
+  .fas{
+      color: rgb(2, 181, 252);
+      background-color: transparent;
+  }
+  #fas{
+    color: #303030;
+     
+  }
+  #payment{
+      padding: 25px;
+  }
+  #payment>div{
+      margin: 10px;
+  }
+  #icon{
+      width: 30px;
+  }

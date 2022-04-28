@@ -1,0 +1,130 @@
+ul {
+  border: 1px solid black;
+  list-style-type: none;
+  margin: auto;
+  /* height: 100px; */
+  font-weight: normal;
+  width: 30%;
+}
+.a {
+  display: flex;
+}
+li {
+  border-bottom: 1px solid grey;
+  cursor: pointer;
+}
+li:hover {
+  background-color: rgb(133, 131, 131);
+}
+li:last-child {
+  border-bottom: none;
+}
+h1,
+p {
+  text-align: center;
+}
+.submit {
+  color: whitesmoke;
+  background-color: rgb(42, 109, 255);
+  padding: 5px 150px;
+  border: none;
+  margin-left: 37%;
+  font-weight: bolder;
+  cursor: pointer;
+  font-weight: normal;
+}
+p {
+  font-size: 10px;
+}
+.date {
+  margin-left: -40px;
+}
+
+.b {
+  border: 1px rgb(34, 33, 33) solid;
+  margin: auto;
+}
+.right {
+  font-size: 15px;
+  font-style: italic;
+  padding-right: 10px;
+}
+.left {
+  font-size: 10px;
+  font-weight: normal;
+}
+#pic {
+  display: flex;
+}
+.text1 {
+  color: red;
+  font-weight: bold;
+  font-size: 10px;
+  /* padding-left: 50px; */
+}
+.pic2 {
+  color: red;
+  height: 5px;
+  width: 5px;
+  padding-left: 120px;
+}
+.arrow {
+  margin-left: 49%;
+}
+
+.faq {
+  border: 1px solid transparent;
+  margin-top: -40px;
+  margin-bottom: -10px;
+  padding: 30px;
+  position: relative;
+}
+
+h2 {
+  margin-left: 350px;
+}
+
+/* box{
+    padding-left: 100px;
+} */
+.faq-title {
+  line-height: 0%;
+  padding-top: -30px;
+  font-size: 15px;
+  cursor: pointer;
+}
+.faq-title:hover {
+  color: rgb(9, 180, 248);
+}
+.faq-text {
+  display: none;
+  font-size: 10px;
+  line-height: 15px;
+  margin: 0px;
+  cursor: pointer;
+}
+
+.faq.active .faq-text {
+  display: block;
+}
+
+.toggle {
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  position: absolute;
+  margin-left: 20px;
+  top: 30px;
+  right: 30px;
+  height: 30px;
+  width: 30px;
+  color: rgb(0, 183, 255);
+  background-color: transparent;
+}
+.fas {
+  color: rgb(2, 181, 252);
+  background-color: transparent;
+}
